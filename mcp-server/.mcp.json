@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "server-zoyee": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/zoyajmd/workspace/MCP-Server/mcp-server",
+        "run",
+        "main.py"
+      ],
+      "env": {}
+    }
+  }
+}
